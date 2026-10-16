@@ -63,16 +63,15 @@ export const CuttingPlaneVisualizer: React.FC = () => {
     };
   }, [clippingPlane, clippingOffset]);
 
-  // Borde perimétrico rectangular del plano
+  // Borde perimétrico rectangular del plano (como lineSegments para evitar colisión de tipos con SVG <line>)
   const borderGeom = useMemo(() => {
     const hw = width / 2;
     const hh = height / 2;
     const pts = [
-      new THREE.Vector3(-hw, -hh, 0),
-      new THREE.Vector3(hw, -hh, 0),
-      new THREE.Vector3(hw, hh, 0),
-      new THREE.Vector3(-hw, hh, 0),
-      new THREE.Vector3(-hw, -hh, 0),
+      new THREE.Vector3(-hw, -hh, 0), new THREE.Vector3(hw, -hh, 0),
+      new THREE.Vector3(hw, -hh, 0), new THREE.Vector3(hw, hh, 0),
+      new THREE.Vector3(hw, hh, 0), new THREE.Vector3(-hw, hh, 0),
+      new THREE.Vector3(-hw, hh, 0), new THREE.Vector3(-hw, -hh, 0),
     ];
     return new THREE.BufferGeometry().setFromPoints(pts);
   }, [width, height]);
@@ -104,9 +103,9 @@ export const CuttingPlaneVisualizer: React.FC = () => {
         </lineSegments>
 
         {/* Borde perimétrico luminoso */}
-        <line geometry={borderGeom}>
+        <lineSegments geometry={borderGeom}>
           <lineBasicMaterial color="#00e5ff" linewidth={2.5} transparent opacity={0.85} depthWrite={false} />
-        </line>
+        </lineSegments>
 
         {/* Superficie translúcida del plano de corte */}
         <mesh position={[0, 0, -0.002]}>
