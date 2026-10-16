@@ -8,9 +8,10 @@ import { CorticalParcels } from './CorticalParcels';
 import { CerebellumBucknerParcels } from './CerebellumBucknerParcels';
 import { WhiteMatterTracts } from './WhiteMatterTracts';
 import { CalloutLabels } from './CalloutLabels';
-import { CerebralVasculature } from './CerebralVasculature';
+import { ArterialCircle3D } from './ArterialCircle3D';
+import { CranialNervesLayer } from './CranialNervesLayer';
+import { MeningesLayer } from './MeningesLayer';
 import { NeurochemicalPathways } from './NeurochemicalPathways';
-import { CranialNerves3D } from './CranialNerves3D';
 import { BrodmannBadges3D } from './BrodmannBadges3D';
 import { DissectionActionDock } from './DissectionActionDock';
 import { DissectionToolbar } from '../ui/DissectionToolbar';
@@ -211,6 +212,12 @@ export const BrainViewport: React.FC = () => {
   const isDissectionMode = useNeuroStore((state) => state.isDissectionMode);
   const clippingPlane = useNeuroStore((state) => state.clippingPlane);
   const setClippingPlane = useNeuroStore((state) => state.setClippingPlane);
+  const showVasculature = useNeuroStore((state) => state.showVasculature);
+  const toggleVasculature = useNeuroStore((state) => state.toggleVasculature);
+  const showCranialNerves = useNeuroStore((state) => state.showCranialNerves);
+  const toggleCranialNerves = useNeuroStore((state) => state.toggleCranialNerves);
+  const showMeninges = useNeuroStore((state) => state.showMeninges);
+  const toggleMeninges = useNeuroStore((state) => state.toggleMeninges);
 
   const viewButtons: { label: string; mode: CameraViewMode; desc: string }[] = [
     { label: 'SAGITAL', mode: 'sagittal', desc: 'Vista Lateral' },
@@ -381,6 +388,56 @@ export const BrainViewport: React.FC = () => {
             )}
           </div>
         </div>
+
+        {/* Selector Rápido de Capas Anatómicas (Vasos, Nervios Craneales, Meninges) */}
+        <div className="pointer-events-auto flex items-center gap-1.5 p-1 rounded-lg bg-[#070e18]/90 backdrop-blur-md border border-cyan-500/25 shadow-xl text-[10px] font-mono">
+          <div className="flex items-center gap-1 px-1.5 text-slate-400 font-bold">
+            <Layers className="w-3 h-3 text-cyan-400" />
+            <span>CAPAS:</span>
+          </div>
+
+          {/* Arterias / Polígono de Willis */}
+          <button
+            onClick={toggleVasculature}
+            className={`px-2 py-1 rounded transition-all flex items-center gap-1.5 border font-bold ${
+              showVasculature
+                ? 'bg-rose-500/25 border-rose-400 text-rose-200 shadow-[0_0_10px_rgba(244,63,94,0.35)]'
+                : 'bg-slate-900/60 border-slate-700/60 text-slate-400 hover:text-white'
+            }`}
+            title="Mostrar u ocultar Polígono de Willis y Ramas Cerebrales (ACM/ACA/ACP)"
+          >
+            <span className={`w-2 h-2 rounded-full ${showVasculature ? 'bg-rose-500 animate-pulse' : 'bg-slate-600'}`} />
+            <span>ARTERIAS (WILLIS)</span>
+          </button>
+
+          {/* Pares Craneales (I-XII) */}
+          <button
+            onClick={toggleCranialNerves}
+            className={`px-2 py-1 rounded transition-all flex items-center gap-1.5 border font-bold ${
+              showCranialNerves
+                ? 'bg-amber-500/25 border-amber-400 text-amber-200 shadow-[0_0_10px_rgba(245,158,11,0.35)]'
+                : 'bg-slate-900/60 border-slate-700/60 text-slate-400 hover:text-white'
+            }`}
+            title="Mostrar u ocultar los 12 Pares Craneales (I al XII) con sus orígenes aparentes en tronco"
+          >
+            <span className={`w-2 h-2 rounded-full ${showCranialNerves ? 'bg-amber-400 animate-pulse' : 'bg-slate-600'}`} />
+            <span>PARES CRANEALES (I-XII)</span>
+          </button>
+
+          {/* Meninges: Hoz del Cerebro y Tienda */}
+          <button
+            onClick={toggleMeninges}
+            className={`px-2 py-1 rounded transition-all flex items-center gap-1.5 border font-bold ${
+              showMeninges
+                ? 'bg-cyan-500/30 border-cyan-400 text-cyan-200 shadow-[0_0_10px_rgba(0,229,255,0.35)]'
+                : 'bg-slate-900/60 border-slate-700/60 text-slate-400 hover:text-white'
+            }`}
+            title="Mostrar u ocultar Duramadre y Repliegues (Hoz del Cerebro, Tienda del Cerebelo y Senos Durales)"
+          >
+            <span className={`w-2 h-2 rounded-full ${showMeninges ? 'bg-cyan-400' : 'bg-slate-600'}`} />
+            <span>DURAMADRE Y REPLIEGUES</span>
+          </button>
+        </div>
       </div>
 
       {/* R3F Canvas */}
@@ -421,9 +478,10 @@ export const BrainViewport: React.FC = () => {
           <CorticalParcels />
           <CerebellumBucknerParcels />
           <WhiteMatterTracts />
-          <CerebralVasculature />
+          <ArterialCircle3D />
+          <CranialNervesLayer />
+          <MeningesLayer />
           <NeurochemicalPathways />
-          <CranialNerves3D />
           <BrodmannBadges3D />
           <CalloutLabels />
           <HemisphericDivider />

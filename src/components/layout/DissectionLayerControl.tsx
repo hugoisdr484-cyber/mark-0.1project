@@ -12,6 +12,18 @@ interface DissectionLayerDef {
 
 export const DISSECTION_LAYERS: DissectionLayerDef[] = [
   {
+    depth: 0,
+    name: 'Capa 0: Repliegues Meníngeos & Senos',
+    desc: 'Hoz del Cerebro (Falx), Tienda del Cerebelo (Tentorium) y Senos Durales',
+    color: '#d7ccc8',
+    structures: [
+      { id: 'meninges', name: 'Duramadre y Repliegues (General)' },
+      { id: 'falx_cerebri', name: 'Hoz del Cerebro (Falx Cerebri)' },
+      { id: 'tentorium_cerebelli', name: 'Tienda del Cerebelo (Tentorium)' },
+      { id: 'dural_sinuses', name: 'Senos Venosos Durales (Sagital, Recto, Transversos)' },
+    ],
+  },
+  {
     depth: 1,
     name: 'Capa 1: Corteza Cerebral',
     desc: 'Sustancia gris superficial (Corteza fsaverage6)',
@@ -67,6 +79,24 @@ export const DISSECTION_LAYERS: DissectionLayerDef[] = [
       { id: 'cerebellum_deep_nuclei', name: 'Núcleos Profundos y Pedúnculos' },
       { id: 'cerebellum_arbor_vitae', name: 'Árbol de la Vida (Sustancia Blanca)' },
       { id: 'cerebellum_flocculonodular', name: 'Lóbulo Floculonodular / Amígdala' },
+    ],
+  },
+  {
+    depth: 7,
+    name: 'Capa 7: Capa Vascular (Polígono de Willis)',
+    desc: 'Sistema Carotídeo y Vertebrobasilar con Ramas Corticales (ACM/ACA/ACP)',
+    color: '#ef4444',
+    structures: [
+      { id: 'vasculature', name: 'Polígono de Willis y Ramas (ACM / ACA / ACP)' },
+    ],
+  },
+  {
+    depth: 8,
+    name: 'Capa 8: Capa Nerviosa Periférica (Pares Craneales)',
+    desc: 'Los 12 Pares Craneales (I al XII) con sus orígenes aparentes en tronco',
+    color: '#facc15',
+    structures: [
+      { id: 'cranialNerves', name: 'Pares Craneales (I - XII)' },
     ],
   },
 ];

@@ -41,6 +41,13 @@ interface NeuroState {
   showCranialNerves: boolean;
   selectedCranialNerveId: string | null;
 
+  // Meninges Layer Module (Duramadre, Hoz del Cerebro y Tienda)
+  showMeninges: boolean;
+  meningesMode: 'ghost' | 'opaque';
+  toggleMeninges: () => void;
+  setShowMeninges: (show: boolean) => void;
+  setMeningesMode: (mode: 'ghost' | 'opaque') => void;
+
   // Neurochemistry & Pharmacology Module
   showNeurochemistry: boolean;
   activeDrugId: string | null;
@@ -188,6 +195,12 @@ export const useNeuroStore = create<NeuroState>((set, get) => ({
   showCranialNerves: false,
   selectedCranialNerveId: 'cn3',
 
+  showMeninges: false,
+  meningesMode: 'ghost',
+  toggleMeninges: () => set((state) => ({ showMeninges: !state.showMeninges })),
+  setShowMeninges: (show) => set({ showMeninges: show }),
+  setMeningesMode: (mode) => set({ meningesMode: mode }),
+
   showNeurochemistry: false,
   activeDrugId: 'DRUG_PHYSIOLOGICAL',
   activeNeuroSystem: 'TODOS',
@@ -333,6 +346,10 @@ export const useNeuroStore = create<NeuroState>((set, get) => ({
     brainstem_peduncles: true,
     vasculature: true,
     cranialNerves: true,
+    meninges: true,
+    falx_cerebri: true,
+    tentorium_cerebelli: true,
+    dural_sinuses: true,
   },
 
   toggleStructureVisibility: (id) =>

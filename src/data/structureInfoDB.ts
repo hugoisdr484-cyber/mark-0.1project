@@ -93,6 +93,41 @@ export const STRUCTURE_INFO: Record<string, StructureInfo> = {
   Midbrain_Peduncle: G('Mesencéfalo', [-8.5, -26, -12], '—', 'Perforantes de ACP y coroidea anterior', 'Pedúnculos cerebrales: haces corticoespinal, corticobulbar y corticopontino.', 'Síndrome de Weber (III ipsilateral + hemiplejía contralateral).'),
   Midbrain_SC: G('Mesencéfalo', [-4.2, -34, -3], '—', 'Arterias cuadrigeminales (ACP / cerebelosa superior)', 'Colículo superior: orientación visual y sacadas oculares.', 'Síndrome de Parinaud (mirada vertical).'),
   Midbrain_IC: G('Mesencéfalo', [-4.8, -35, -10], '—', 'Arterias cuadrigeminales (ACP / cerebelosa superior)', 'Colículo inferior: relevo auditivo hacia el CGM.', 'Hipoacusia central.'),
+
+  // ---------------- Sistema Vascular / Polígono de Willis ----------------
+  ICA: G('Vasculatura', [-18, -12, -20], '—', 'Tronco Carotídeo Interno (C4-C7)', 'Aporte arterial principal a la circulación cerebral anterior (ACM y ACA).', 'Oclusión carotídea: ictus hemisférico mayor, amaurosis fugaz.'),
+  ACA: G('Vasculatura', [-4, 18, 14], '—', 'Segmentos A1-A4 (Pericallosa y Callosomarginal)', 'Irrigación de la cara medial de los lóbulos frontal y parietal (miembro inferior).', 'Ictus ACA: paraparesia/monoparesia crural contralateral, abulia.'),
+  ACOA: G('Vasculatura', [0, 14, -8], '—', 'Puente comunicante anterior', 'Anastomosis interhemisférica entre ambas arterias cerebrales anteriores.', 'Aneurismas de la ACoA: hemorragia subaracnoidea, déficit del lóbulo frontal.'),
+  MCA: G('Vasculatura', [-38, -6, 2], '—', 'Segmentos M1-M4 (Tronco principal, ínsula y ramas corticales)', 'Irriga la cara convexa de los hemisferios (lenguaje, cara y brazo).', 'Ictus ACM: hemiplejía faciobraquial contralateral, afasia (izq), negligencia (der).'),
+  PCOMA: G('Vasculatura', [-16, -14, -14], '—', 'Puente anastomótico carótido-vertebrobasilar', 'Conecta la arteria carótida interna con la arteria cerebral posterior.', 'Aneurisma de PCoA: compresión y parálisis del III par con midriasis.'),
+  BASILAR: G('Vasculatura', [0, -22, -32], '—', 'Tronco basilar pontino ventral', 'Aporte arterial al tronco encefálico, cerebelo y lóbulos occipitales.', 'Trombosis basilar: síndrome de enclaustramiento (locked-in), coma.'),
+  VA: G('Vasculatura', [-14, -38, -48], '—', 'Segmento V4 intracraneal de arterias vertebrales', 'Convergencia en la arteria basilar; ramas a la espinal anterior y PICA.', 'Disección vertebral: síndrome de Wallenberg, ictus cerebeloso.'),
+  PICA: G('Vasculatura', [-18, -38, -42], '—', 'Arteria cerebelosa posteroinferior', 'Irriga el bulbo dorsolateral y la cara inferior del cerebelo.', 'Infarto de PICA: Síndrome de Wallenberg (ataxia, Horner, termoalgesia cruzada).'),
+  AICA: G('Vasculatura', [-22, -28, -36], '—', 'Arteria cerebelosa anteroinferior', 'Irriga el ángulo pontocerebeloso, puente lateral y laberinto auditivo.', 'Ictus AICA: hipoacusia súbita, parálisis facial periférica, ataxia.'),
+  SCA: G('Vasculatura', [-18, -24, -16], '—', 'Arteria cerebelosa superior', 'Irriga la cara superior del cerebelo y núcleos profundos cerebelosos.', 'Ictus SCA: ataxia de la marcha severa y dismetría ipsilateral.'),
+  PCA: G('Vasculatura', [-16, -26, -6], '—', 'Segmentos P1-P4 (ramas calcarina y parietooccipital)', 'Irriga los lóbulos occipitales, corteza visual V1 y cara inferior temporal.', 'Ictus PCA: hemianopsia homónima contralateral con respeto macular, alexia.'),
+  Lenticulostriate: G('Vasculatura', [-16, 4, 2], '—', 'Arterias perforantes anterolaterales de la ACM', 'Irrigan el brazo posterior de la cápsula interna y núcleos lenticulares.', 'Infarto lacunar capsular: ictus motor puro o sensitivo-motor.'),
+
+  // ---------------- Pares Craneales (I - XII) ----------------
+  cn1: G('Par Craneal I', [-6, 32, -14], '—', 'Nervio Olfatorio (Bulbo y cintilla olfatoria)', 'Transmisión sensorial del olfato desde la mucosa nasal hacia corteza entorrinal.', 'Anosmia traumática o compresión por meningioma del surco olfatorio.'),
+  cn2: G('Par Craneal II', [-8, 4, -8], '—', 'Nervio Óptico y Quiasma Óptico', 'Transmisión de los estímulos visuales retinianos hacia el tálamo (CGL).', 'Neuritis óptica, hemianopsia bitemporal por adenoma hipofisario.'),
+  cn3: G('Par Craneal III', [-4, -18, -12], '—', 'Nervio Oculomotor / Motor Ocular Común', 'Motilidad ocular extrínseca (rectos sup/inf/medial, oblicuo menor) y constricción pupilar.', 'Ptosis palpebral, midriasis fija y ojo desviado "hacia abajo y afuera".'),
+  cn4: G('Par Craneal IV', [-16, -24, -14], '—', 'Nervio Troclear / Patético', 'Inervación del músculo oblicuo superior del ojo (depresión en aducción).', 'Diplopía vertical al bajar escaleras; inclinación compensatoria de cabeza.'),
+  cn5: G('Par Craneal V', [-24, -20, -22], '—', 'Nervio Trigémino (V1 Oftálmica, V2 Maxilar, V3 Mandibular)', 'Sensibilidad general de la cara, córnea y cavidades; motilidad masticatoria.', 'Neuralgia del trigémino (dolor lancinante paroxístico), anestesia facial.'),
+  cn6: G('Par Craneal VI', [-6, -28, -34], '—', 'Nervio Abducens / Motor Ocular Externo', 'Inervación del músculo recto lateral (abducción del globo ocular).', 'Diplopía horizontal en la mirada lateral ipsilateral; signo precoz de HIC.'),
+  cn7: G('Par Craneal VII', [-26, -30, -32], '—', 'Nervio Facial e Intermediario de Wrisberg', 'Músculos de la mímica facial, gusto en los dos tercios anteriores de la lengua, lagrimeo.', 'Parálisis facial periférica de Bell, pérdida de arrugas frontales y cierre palpebral.'),
+  cn8: G('Par Craneal VIII', [-30, -32, -32], '—', 'Nervio Vestibulococlear / Auditivo', 'Audición (porción coclear) y equilibrio espacial / aceleración (porción vestibular).', 'Hipoacusia neurosensorial, acúfenos, vértigo periférico, neurinoma del acústico.'),
+  cn9: G('Par Craneal IX', [-20, -36, -42], '—', 'Nervio Glosofaríngeo', 'Sensibilidad faríngea, reflejo nauseoso, gusto en el tercio posterior de la lengua.', 'Neuralgia del glosofaríngeo, pérdida del reflejo faríngeo ipsilateral.'),
+  cn10: G('Par Craneal X', [-18, -38, -44], '—', 'Nervio Vago / Neumogástrico', 'Inervación parasimpática toracoabdominal, cuerdas vocales (laríngeo recurrente) y paladar.', 'Disfonía, parálisis de cuerda vocal, disfagia, desviación de la úvula.'),
+  cn11: G('Par Craneal XI', [-16, -42, -52], '—', 'Nervio Accesorio / Espinal', 'Inervación motora de los músculos esternocleidomastoideo y trapecio.', 'Dificultad para encoger el hombro y girar la cabeza hacia el lado opuesto.'),
+  cn12: G('Par Craneal XII', [-10, -36, -48], '—', 'Nervio Hipogloso', 'Inervación motora de la musculatura intrínseca y extrínseca de la lengua.', 'Desviación de la lengua hacia el lado parético al protruirla, atrofia y fasciculaciones.'),
+
+  // ---------------- Capa Meníngea ----------------
+  Falx_Cerebri: G('Meninges', [0, -8, 28], '—', 'Hoz del Cerebro (Repliegue dural sagital)', 'Separa ambos hemisferios cerebrales; contiene el seno sagital superior e inferior.', 'Herniación subfalcina (del cíngulo) por masa supratentorial unilateral.'),
+  Tentorium_Cerebelli: G('Meninges', [0, -52, -4], '—', 'Tienda del Cerebelo (Septo tentorial)', 'Separa los lóbulos occipitales del cerebelo; delimita fosa posterior.', 'Herniación uncal / transtentorial con compresión del mesencéfalo y III par.'),
+  Sinus_Sagittal_Sup: G('Meninges', [0, -18, 48], '—', 'Seno Sagital Superior (Seno dural)', 'Drenaje venoso de las venas corticales emisarias de ambos hemisferios hacia la tórcula.', 'Trombosis venosa cerebral dural (cefalea, papiledema, crisis epilépticas).'),
+  Sinus_Rectus: G('Meninges', [0, -48, 12], '—', 'Seno Recto (Unión de hoz y tienda)', 'Recibe la vena de Galeno y el seno sagital inferior drenando hacia la confluencia.', 'Trombosis del seno recto con congestión diencefálica y talámica profunda.'),
+  Sinus_Transverse: G('Meninges', [-44, -58, -8], '—', 'Seno Transverso Bilateral', 'Conduce el flujo venoso desde la tórcula de Herófilo hacia los senos sigmoideos.', 'Trombosis del seno transverso; hipertensión intracraneal idiopática.'),
 };
 
 /** Quita el sufijo de lateralidad _L / _R / _a / _b para localizar la ficha base. */

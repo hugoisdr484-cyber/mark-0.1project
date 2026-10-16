@@ -1,0 +1,183 @@
+Coccyx_beige_0
+Cranium_beige_0
+Mandible_beige_0
+Sacrum_beige_0
+Sternum_beige_0
+Xiphoid process_beige_0
+c1_beige_0
+c2_beige_0
+c3_beige_0
+c4_beige_0
+c5_beige_0
+c6_beige_0
+c7_beige_0
+hyoid_beige_0
+l calcaneus_beige_0
+l cuboid_beige_0
+l distal phalange 1_beige_0
+l distal phalange 2_beige_0
+l distal phalange 3_beige_0
+l distal phalange 4_beige_0
+l distal phalange 5_beige_0
+l interemediate phalange 5_beige_0
+l intermediate cuneiform_beige_0
+l intermediate phalange 2_beige_0
+l intermediate phalange 3_beige_0
+l intermediate phalange 4_beige_0
+l lateral cuneiform_beige_0
+l medial cuneiform_beige_0
+l metatarsal 1_beige_0
+l metatarsal 2_beige_0
+l metatarsal 3_beige_0
+l metatarsal 4_beige_0
+l metatarsal 5_beige_0
+l navicular_beige_0
+l proximal phalange 1_beige_0
+l proximal phalange 2_beige_0
+l proximal phalange 3_beige_0
+l proximal phalange 4_beige_0
+l proximal phalange 5_beige_0
+l talus_beige_0
+l1_beige_0
+l2_beige_0
+l3_beige_0
+l4_beige_0
+l5_beige_0
+l_capitate_beige_0
+l_clavicle_beige_0
+l_distal phalange1_beige_0
+l_distal phalange2_beige_0
+l_distal phalange3_beige_0
+l_distal phalange4_beige_0
+l_distal phalange5_beige_0
+l_femur_beige_0
+l_fibula_beige_0
+l_hamate_beige_0
+l_humerus_beige_0
+l_intermediate phalange2_beige_0
+l_intermediate phalange3_beige_0
+l_intermediate phalange4_beige_0
+l_intermediate phalange5_beige_0
+l_lunate_beige_0
+l_metacarpal1_beige_0
+l_metacarpal2_beige_0
+l_metacarpal3_beige_0
+l_metacarpal4_beige_0
+l_metacarpal5_beige_0
+l_oscoxa_beige_0
+l_patella_beige_0
+l_pisiform_beige_0
+l_proximal phalange1_beige_0
+l_proximal phalange2_beige_0
+l_proximal phalange3_beige_0
+l_proximal phalange4_beige_0
+l_proximal phalange5_beige_0
+l_radius_beige_0
+l_rib10_beige_0
+l_rib11_beige_0
+l_rib12_beige_0
+l_rib1_beige_0
+l_rib2_beige_0
+l_rib3_beige_0
+l_rib4_beige_0
+l_rib5_beige_0
+l_rib6_beige_0
+l_rib7_beige_0
+l_rib8_beige_0
+l_rib9_beige_0
+l_scaphoid_beige_0
+l_scapula_beige_0
+l_tibia_beige_0
+l_trapezium_beige_0
+l_trapezoid_beige_0
+l_triquetral_beige_0
+l_ulna_beige_0
+r_calcaneus_beige_0
+r_capitate_beige_0
+r_clavicle_beige_0
+r_cuboid_beige_0
+r_distal phalange 1_beige_0
+r_distal phalange 2_beige_0
+r_distal phalange 3_beige_0
+r_distal phalange 4_beige_0
+r_distal phalange 5_beige_0
+r_distal phalange1_beige_0
+r_distal phalange2_beige_0
+r_distal phalange3_beige_0
+r_distal phalange4_beige_0
+r_distal phalange5_beige_0
+r_femur_beige_0
+r_fibula_beige_0
+r_hamate_beige_0
+r_humerus_beige_0
+r_intermediate cuneiform_beige_0
+r_intermediate phalange 2_beige_0
+r_intermediate phalange 3_beige_0
+r_intermediate phalange 4_beige_0
+r_intermediate phalange 5_beige_0
+r_intermediate phalange2_beige_0
+r_intermediate phalange3_beige_0
+r_intermediate phalange4_beige_0
+r_intermediate phalange5_beige_0
+r_lateral cuneiform_beige_0
+r_lunate_beige_0
+r_medial cuneiform_beige_0
+r_metacarpal1_beige_0
+r_metacarpal2_beige_0
+r_metacarpal3_beige_0
+r_metacarpal4_beige_0
+r_metacarpal5_beige_0
+r_metatarsal 1_beige_0
+r_metatarsal 2_beige_0
+r_metatarsal 3_beige_0
+r_metatarsal 4_beige_0
+r_metatarsal 5_beige_0
+r_navicular_beige_0
+r_oscoxa_beige_0
+r_patella_beige_0
+r_pisiform_beige_0
+r_proximal phalange 1_beige_0
+r_proximal phalange 2_beige_0
+r_proximal phalange 3_beige_0
+r_proximal phalange 4_beige_0
+r_proximal phalange 5_beige_0
+r_proximal phalange1_beige_0
+r_proximal phalange2_beige_0
+r_proximal phalange3_beige_0
+r_proximal phalange4_beige_0
+r_proximal phalange5_beige_0
+r_radius_beige_0
+r_rib10_beige_0
+r_rib11_beige_0
+r_rib12_beige_0
+r_rib1_beige_0
+r_rib2_beige_0
+r_rib3_beige_0
+r_rib4_beige_0
+r_rib5_beige_0
+r_rib6_beige_0
+r_rib7_beige_0
+r_rib8_beige_0
+r_rib9_beige_0
+r_scaphoid_beige_0
+r_scapula_beige_0
+r_talus_beige_0
+r_tibia_beige_0
+r_trapezium_beige_0
+r_trapezoid_beige_0
+r_triquetral_beige_0
+r_ulna_beige_0
+sesamoids.001_beige_0
+sesamoids_beige_0
+t10_beige_0
+t11_beige_0
+t12_beige_0
+t1_beige_0
+t2_beige_0
+t3_beige_0
+t4_beige_0
+t5_beige_0
+t6_beige_0
+t7_beige_0
+t8_beige_0
+t9_beige_0
