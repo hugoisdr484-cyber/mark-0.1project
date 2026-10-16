@@ -1,0 +1,325 @@
+[
+  {
+    "id": "BA_4",
+    "number": "4",
+    "name": "Corteza Motora Primaria (M1)",
+    "destrieux_label": "G_precentral",
+    "color": "#f28b82",
+    "position": [
+      -1.0625837189191214,
+      1.0063793301817199,
+      0.2101353017832454
+    ],
+    "normal": [
+      -0.7656060134015176,
+      0.6283824361903327,
+      0.13777861274863276
+    ]
+  },
+  {
+    "id": "BA_312",
+    "number": "3, 1, 2",
+    "name": "Corteza Somatosensorial Primaria (S1)",
+    "destrieux_label": "G_postcentral",
+    "color": "#8ab4f8",
+    "position": [
+      -1.1594317235674327,
+      1.0467009382503882,
+      -0.1518060008879981
+    ],
+    "normal": [
+      -0.7186703558645743,
+      0.6953110328508456,
+      -0.007448972907475401
+    ]
+  },
+  {
+    "id": "BA_44",
+    "number": "44",
+    "name": "\u00c1rea de Broca (Pars Opercularis)",
+    "destrieux_label": "G_front_inf-Opercular",
+    "color": "#81c995",
+    "position": [
+      -1.2506583769495567,
+      -0.1760508473654907,
+      0.7130933700954529
+    ],
+    "normal": [
+      -0.5210926749548731,
+      -0.8476269655628267,
+      0.09995474655627729
+    ]
+  },
+  {
+    "id": "BA_45",
+    "number": "45",
+    "name": "\u00c1rea de Broca (Pars Triangularis)",
+    "destrieux_label": "G_front_inf-Triangul",
+    "color": "#fde293",
+    "position": [
+      -1.2773623973518708,
+      -0.2497137555950391,
+      1.1490633106767874
+    ],
+    "normal": [
+      -0.9204300979942437,
+      -0.389621152634039,
+      -0.031682678649851755
+    ]
+  },
+  {
+    "id": "BA_6",
+    "number": "6",
+    "name": "\u00c1rea Premotora / Motora Suplementaria",
+    "destrieux_label": "G_and_S_paracentral",
+    "color": "#f9ab9f",
+    "position": [
+      -0.10938741362014417,
+      1.3510928038623158,
+      -0.3924296250577066
+    ],
+    "normal": [
+      0.8944995550190091,
+      0.385443866397223,
+      -0.22650291814357368
+    ]
+  },
+  {
+    "id": "BA_9_46",
+    "number": "9/46",
+    "name": "Corteza Prefrontal Dorsolateral (DLPFC)",
+    "destrieux_label": "G_front_middle",
+    "color": "#fed7aa",
+    "position": [
+      -0.9502606973546425,
+      0.5266821415365874,
+      1.264229590153561
+    ],
+    "normal": [
+      -0.6884764893738711,
+      0.5136652114464019,
+      0.5120040762817747
+    ]
+  },
+  {
+    "id": "BA_10",
+    "number": "10",
+    "name": "Corteza Frontopolar Anterior",
+    "destrieux_label": "G_and_S_transv_frontopol",
+    "color": "#fbcfe8",
+    "position": [
+      -0.3567174177769739,
+      -0.3816011868554049,
+      2.054212731084257
+    ],
+    "normal": [
+      -0.31227577986976385,
+      -0.23992864873300562,
+      0.9191942563048818
+    ]
+  },
+  {
+    "id": "BA_17",
+    "number": "17",
+    "name": "Corteza Visual Primaria (V1 Calcarina)",
+    "destrieux_label": "Pole_occipital",
+    "color": "#ff8bcb",
+    "position": [
+      -0.43665664900522294,
+      -0.49359781129765695,
+      -2.007251524722759
+    ],
+    "normal": [
+      0.03661819026510897,
+      -0.47187828425373546,
+      -0.880902941867865
+    ]
+  },
+  {
+    "id": "BA_18",
+    "number": "18",
+    "name": "Corteza Visual Secundaria (V2)",
+    "destrieux_label": "G_occipital_middle",
+    "color": "#ccff90",
+    "position": [
+      -1.0420226095882443,
+      0.005402705518711838,
+      -1.6276184420470228
+    ],
+    "normal": [
+      -0.7922027064138824,
+      0.1439265930333658,
+      -0.5930430066768582
+    ]
+  },
+  {
+    "id": "BA_19",
+    "number": "19",
+    "name": "Corteza Visual Asociativa (V3/V4)",
+    "destrieux_label": "G_occipital_sup",
+    "color": "#a7f3d0",
+    "position": [
+      -0.3350775779070779,
+      0.38508581657619095,
+      -1.8303713458636248
+    ],
+    "normal": [
+      0.014423685773450047,
+      0.5938669148755077,
+      -0.8044339902720145
+    ]
+  },
+  {
+    "id": "BA_41",
+    "number": "41",
+    "name": "Corteza Auditiva Primaria (Heschl)",
+    "destrieux_label": "G_temp_sup-G_T_transv",
+    "color": "#00e5ff",
+    "position": [
+      -1.1349664005907385,
+      -0.05415072063782107,
+      0.011301309787150843
+    ],
+    "normal": [
+      0.08622218488911487,
+      0.8838336995169752,
+      0.45978660966918616
+    ]
+  },
+  {
+    "id": "BA_22",
+    "number": "22",
+    "name": "\u00c1rea de Wernicke (Giro Temporal Superior)",
+    "destrieux_label": "G_temp_sup-Lateral",
+    "color": "#78d9ec",
+    "position": [
+      -1.5155442217582746,
+      -0.38846197592710596,
+      0.14740079523980643
+    ],
+    "normal": [
+      -0.9737735567750431,
+      -0.029648319701060844,
+      0.2255793369628207
+    ]
+  },
+  {
+    "id": "BA_39",
+    "number": "39",
+    "name": "Giro Angular (Comprensi\u00f3n Lectora)",
+    "destrieux_label": "G_pariet_inf-Angular",
+    "color": "#d7aefb",
+    "position": [
+      -1.0984874208023545,
+      0.693048782192113,
+      -1.2070380499058957
+    ],
+    "normal": [
+      -0.5444934588878265,
+      0.6355192602506831,
+      -0.5473957828471053
+    ]
+  },
+  {
+    "id": "BA_40",
+    "number": "40",
+    "name": "Giro Supramarginal (Fonolog\u00eda)",
+    "destrieux_label": "G_pariet_inf-Supramar",
+    "color": "#fcad70",
+    "position": [
+      -1.425673147527868,
+      0.47443227631417667,
+      -0.48156301532308643
+    ],
+    "normal": [
+      -0.9544267696643959,
+      0.12182889723090548,
+      -0.2724468042526611
+    ]
+  },
+  {
+    "id": "BA_5_7",
+    "number": "5/7",
+    "name": "Corteza Parietal Superior",
+    "destrieux_label": "G_parietal_sup",
+    "color": "#c084fc",
+    "position": [
+      -0.544563262367523,
+      1.1597741635214671,
+      -1.0767827028574466
+    ],
+    "normal": [
+      -0.5105425564577873,
+      0.6472209287404252,
+      -0.566084240591388
+    ]
+  },
+  {
+    "id": "BA_21",
+    "number": "21",
+    "name": "Giro Temporal Medio (Sem\u00e1ntica)",
+    "destrieux_label": "G_temporal_middle",
+    "color": "#fde047",
+    "position": [
+      -1.5394435594775537,
+      -0.596329924725723,
+      -0.36065256452079886
+    ],
+    "normal": [
+      -0.9918517364544032,
+      -0.05763069867642646,
+      -0.11361705621275418
+    ]
+  },
+  {
+    "id": "BA_20",
+    "number": "20",
+    "name": "Giro Temporal Inferior (Visi\u00f3n Ventral)",
+    "destrieux_label": "G_temporal_inf",
+    "color": "#f59e0b",
+    "position": [
+      -1.2494541854905832,
+      -1.012109988811736,
+      -0.4499238725737147
+    ],
+    "normal": [
+      -0.2949945792691645,
+      -0.7591160797382103,
+      -0.5802766372039287
+    ]
+  },
+  {
+    "id": "BA_37",
+    "number": "37",
+    "name": "Giro Fusiforme (Reconocimiento Facial)",
+    "destrieux_label": "G_oc-temp_lat-fusifor",
+    "color": "#93c5fd",
+    "position": [
+      -0.8207415729247617,
+      -0.8646984763276788,
+      -0.8969088819706018
+    ],
+    "normal": [
+      0.21347723075346545,
+      -0.95677747452747,
+      -0.1974951548435254
+    ]
+  },
+  {
+    "id": "BA_38",
+    "number": "38",
+    "name": "Polo Temporal (Emoci\u00f3n y Memoria)",
+    "destrieux_label": "Pole_temporal",
+    "color": "#f472b6",
+    "position": [
+      -0.7473619206453376,
+      -1.3196739637351338,
+      0.610929327622695
+    ],
+    "normal": [
+      0.2991068388140116,
+      -0.8623419816426797,
+      0.4085356846975121
+    ]
+  }
+]

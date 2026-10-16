@@ -1,0 +1,317 @@
+[
+ {
+  "id": "Thal_ATN_L",
+  "name": "Tálamo: Núcleo Anterior (ATN) (Izq)",
+  "category": "Tálamo",
+  "color": "#ff6b6b",
+  "group": "thalamus"
+ },
+ {
+  "id": "Thal_MD_L",
+  "name": "Tálamo: Núcleo Mediodorsal (MD) (Izq)",
+  "category": "Tálamo",
+  "color": "#ffa94d",
+  "group": "thalamus"
+ },
+ {
+  "id": "Thal_VA_L",
+  "name": "Tálamo: Núcleo Ventral Anterior (VA) (Izq)",
+  "category": "Tálamo",
+  "color": "#ffd43b",
+  "group": "thalamus"
+ },
+ {
+  "id": "Thal_VL_L",
+  "name": "Tálamo: Núcleo Ventral Lateral (VL) (Izq)",
+  "category": "Tálamo",
+  "color": "#a9e34b",
+  "group": "thalamus"
+ },
+ {
+  "id": "Thal_VPL_L",
+  "name": "Tálamo: Núcleo Ventral Posterolateral (VPL) (Izq)",
+  "category": "Tálamo",
+  "color": "#38d9a9",
+  "group": "thalamus"
+ },
+ {
+  "id": "Thal_VPM_L",
+  "name": "Tálamo: Núcleo Ventral Posteromedial (VPM) (Izq)",
+  "category": "Tálamo",
+  "color": "#22b8cf",
+  "group": "thalamus"
+ },
+ {
+  "id": "Thal_LGN_L",
+  "name": "Tálamo: Cuerpo Geniculado Lateral (CGL, vía visual) (Izq)",
+  "category": "Tálamo",
+  "color": "#4dabf7",
+  "group": "thalamus"
+ },
+ {
+  "id": "Thal_MGN_L",
+  "name": "Tálamo: Cuerpo Geniculado Medial (CGM, vía auditiva) (Izq)",
+  "category": "Tálamo",
+  "color": "#9775fa",
+  "group": "thalamus"
+ },
+ {
+  "id": "Thal_Pulvinar_L",
+  "name": "Tálamo: Pulvinar (posterior) (Izq)",
+  "category": "Tálamo",
+  "color": "#f783ac",
+  "group": "thalamus"
+ },
+ {
+  "id": "Thal_ATN_R",
+  "name": "Tálamo: Núcleo Anterior (ATN) (Der)",
+  "category": "Tálamo",
+  "color": "#ff6b6b",
+  "group": "thalamus"
+ },
+ {
+  "id": "Thal_MD_R",
+  "name": "Tálamo: Núcleo Mediodorsal (MD) (Der)",
+  "category": "Tálamo",
+  "color": "#ffa94d",
+  "group": "thalamus"
+ },
+ {
+  "id": "Thal_VA_R",
+  "name": "Tálamo: Núcleo Ventral Anterior (VA) (Der)",
+  "category": "Tálamo",
+  "color": "#ffd43b",
+  "group": "thalamus"
+ },
+ {
+  "id": "Thal_VL_R",
+  "name": "Tálamo: Núcleo Ventral Lateral (VL) (Der)",
+  "category": "Tálamo",
+  "color": "#a9e34b",
+  "group": "thalamus"
+ },
+ {
+  "id": "Thal_VPL_R",
+  "name": "Tálamo: Núcleo Ventral Posterolateral (VPL) (Der)",
+  "category": "Tálamo",
+  "color": "#38d9a9",
+  "group": "thalamus"
+ },
+ {
+  "id": "Thal_VPM_R",
+  "name": "Tálamo: Núcleo Ventral Posteromedial (VPM) (Der)",
+  "category": "Tálamo",
+  "color": "#22b8cf",
+  "group": "thalamus"
+ },
+ {
+  "id": "Thal_LGN_R",
+  "name": "Tálamo: Cuerpo Geniculado Lateral (CGL, vía visual) (Der)",
+  "category": "Tálamo",
+  "color": "#4dabf7",
+  "group": "thalamus"
+ },
+ {
+  "id": "Thal_MGN_R",
+  "name": "Tálamo: Cuerpo Geniculado Medial (CGM, vía auditiva) (Der)",
+  "category": "Tálamo",
+  "color": "#9775fa",
+  "group": "thalamus"
+ },
+ {
+  "id": "Thal_Pulvinar_R",
+  "name": "Tálamo: Pulvinar (posterior) (Der)",
+  "category": "Tálamo",
+  "color": "#f783ac",
+  "group": "thalamus"
+ },
+ {
+  "id": "STN_L",
+  "name": "Subtálamo: Núcleo Subtalámico de Luys (STN) (Izq)",
+  "category": "Subtálamo",
+  "color": "#ff9f1c",
+  "group": "subthalamus"
+ },
+ {
+  "id": "STN_R",
+  "name": "Subtálamo: Núcleo Subtalámico de Luys (STN) (Der)",
+  "category": "Subtálamo",
+  "color": "#ff9f1c",
+  "group": "subthalamus"
+ },
+ {
+  "id": "ZI_L",
+  "name": "Subtálamo: Zona Incierta (ZI) (Izq)",
+  "category": "Subtálamo",
+  "color": "#e5989b",
+  "group": "subthalamus"
+ },
+ {
+  "id": "ZI_R",
+  "name": "Subtálamo: Zona Incierta (ZI) (Der)",
+  "category": "Subtálamo",
+  "color": "#e5989b",
+  "group": "subthalamus"
+ },
+ {
+  "id": "SN_L",
+  "name": "Subtálamo: Sustancia Negra (pars compacta y reticulata) (Izq)",
+  "category": "Subtálamo",
+  "color": "#4a3550",
+  "group": "subthalamus"
+ },
+ {
+  "id": "SN_R",
+  "name": "Subtálamo: Sustancia Negra (pars compacta y reticulata) (Der)",
+  "category": "Subtálamo",
+  "color": "#4a3550",
+  "group": "subthalamus"
+ },
+ {
+  "id": "Medulla_Pyramid_L",
+  "name": "Bulbo: Pirámide Bulbar (Izq, haz corticoespinal)",
+  "category": "Bulbo Raquídeo",
+  "color": "#ecc9c4",
+  "group": "medulla"
+ },
+ {
+  "id": "Medulla_Olive_L",
+  "name": "Bulbo: Oliva Bulbar (Izq, núcleo olivar inferior)",
+  "category": "Bulbo Raquídeo",
+  "color": "#d9a3a0",
+  "group": "medulla"
+ },
+ {
+  "id": "Medulla_PreolivarGroove_L",
+  "name": "Bulbo: Surco Preolivar (Izq, emergencia del XII)",
+  "category": "Bulbo Raquídeo",
+  "color": "#3a2430",
+  "group": "medulla"
+ },
+ {
+  "id": "Medulla_RetroolivarGroove_L",
+  "name": "Bulbo: Surco Retroolivar (Izq, emergencia de IX, X y XI)",
+  "category": "Bulbo Raquídeo",
+  "color": "#3a2430",
+  "group": "medulla"
+ },
+ {
+  "id": "Medulla_Gracile_L",
+  "name": "Bulbo: Tubérculo Grácil (Izq, núcleo de Goll)",
+  "category": "Bulbo Raquídeo",
+  "color": "#c9b0d8",
+  "group": "medulla"
+ },
+ {
+  "id": "Medulla_Cuneate_L",
+  "name": "Bulbo: Tubérculo Cuneiforme (Izq, núcleo de Burdach)",
+  "category": "Bulbo Raquídeo",
+  "color": "#b79ad0",
+  "group": "medulla"
+ },
+ {
+  "id": "Medulla_Pyramid_R",
+  "name": "Bulbo: Pirámide Bulbar (Der, haz corticoespinal)",
+  "category": "Bulbo Raquídeo",
+  "color": "#ecc9c4",
+  "group": "medulla"
+ },
+ {
+  "id": "Medulla_Olive_R",
+  "name": "Bulbo: Oliva Bulbar (Der, núcleo olivar inferior)",
+  "category": "Bulbo Raquídeo",
+  "color": "#d9a3a0",
+  "group": "medulla"
+ },
+ {
+  "id": "Medulla_PreolivarGroove_R",
+  "name": "Bulbo: Surco Preolivar (Der, emergencia del XII)",
+  "category": "Bulbo Raquídeo",
+  "color": "#3a2430",
+  "group": "medulla"
+ },
+ {
+  "id": "Medulla_RetroolivarGroove_R",
+  "name": "Bulbo: Surco Retroolivar (Der, emergencia de IX, X y XI)",
+  "category": "Bulbo Raquídeo",
+  "color": "#3a2430",
+  "group": "medulla"
+ },
+ {
+  "id": "Medulla_Gracile_R",
+  "name": "Bulbo: Tubérculo Grácil (Der, núcleo de Goll)",
+  "category": "Bulbo Raquídeo",
+  "color": "#c9b0d8",
+  "group": "medulla"
+ },
+ {
+  "id": "Medulla_Cuneate_R",
+  "name": "Bulbo: Tubérculo Cuneiforme (Der, núcleo de Burdach)",
+  "category": "Bulbo Raquídeo",
+  "color": "#b79ad0",
+  "group": "medulla"
+ },
+ {
+  "id": "Medulla_Decussation_a",
+  "name": "Bulbo: Decusación Piramidal Motora",
+  "category": "Bulbo Raquídeo",
+  "color": "#f3d6cf",
+  "group": "medulla"
+ },
+ {
+  "id": "Medulla_Decussation_b",
+  "name": "Bulbo: Decusación Piramidal Motora",
+  "category": "Bulbo Raquídeo",
+  "color": "#f3d6cf",
+  "group": "medulla"
+ },
+ {
+  "id": "Pons_BasilarGroove",
+  "name": "Protuberancia: Surco Basilar (arteria basilar)",
+  "category": "Protuberancia",
+  "color": "#8b1a1a",
+  "group": "pons"
+ },
+ {
+  "id": "Midbrain_Peduncle_L",
+  "name": "Mesencéfalo: Pedúnculo Cerebral (Izq, pie peduncular)",
+  "category": "Mesencéfalo",
+  "color": "#e5b3ba",
+  "group": "midbrain"
+ },
+ {
+  "id": "Midbrain_SC_L",
+  "name": "Mesencéfalo: Colículo Superior (Izq, reflejo visual)",
+  "category": "Mesencéfalo",
+  "color": "#c9a2d0",
+  "group": "midbrain"
+ },
+ {
+  "id": "Midbrain_IC_L",
+  "name": "Mesencéfalo: Colículo Inferior (Izq, vía auditiva)",
+  "category": "Mesencéfalo",
+  "color": "#a98bc2",
+  "group": "midbrain"
+ },
+ {
+  "id": "Midbrain_Peduncle_R",
+  "name": "Mesencéfalo: Pedúnculo Cerebral (Der, pie peduncular)",
+  "category": "Mesencéfalo",
+  "color": "#e5b3ba",
+  "group": "midbrain"
+ },
+ {
+  "id": "Midbrain_SC_R",
+  "name": "Mesencéfalo: Colículo Superior (Der, reflejo visual)",
+  "category": "Mesencéfalo",
+  "color": "#c9a2d0",
+  "group": "midbrain"
+ },
+ {
+  "id": "Midbrain_IC_R",
+  "name": "Mesencéfalo: Colículo Inferior (Der, vía auditiva)",
+  "category": "Mesencéfalo",
+  "color": "#a98bc2",
+  "group": "midbrain"
+ }
+]

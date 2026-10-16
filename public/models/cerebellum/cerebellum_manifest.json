@@ -1,0 +1,101 @@
+[
+  {
+    "id": "cerebellum_hemisphere_left",
+    "filename": "cerebellum_hemisphere_left.glb",
+    "name": "Hemisferio Cerebeloso Izquierdo",
+    "latinName": "Hemispherium cerebelli sinistrum",
+    "desc": "Corteza cerebelosa lateral izquierda encargada de la coordinación motora ipsilateral del hemicuerpo izquierdo y articulación del habla.",
+    "color": "#2dd4bf",
+    "path": "/models/cerebellum/cerebellum_hemisphere_left.glb",
+    "vertices": 21592,
+    "faces": 43204
+  },
+  {
+    "id": "cerebellum_hemisphere_right",
+    "filename": "cerebellum_hemisphere_right.glb",
+    "name": "Hemisferio Cerebeloso Derecho",
+    "latinName": "Hemispherium cerebelli dextrum",
+    "desc": "Corteza cerebelosa lateral derecha implicada en el control motor ipsilateral fino, cálculo y funciones cognitivas ejecutivas.",
+    "color": "#0ea5e9",
+    "path": "/models/cerebellum/cerebellum_hemisphere_right.glb",
+    "vertices": 22015,
+    "faces": 44066
+  },
+  {
+    "id": "cerebellum_vermis",
+    "filename": "cerebellum_vermis.glb",
+    "name": "Vermis Cerebeloso",
+    "latinName": "Vermis cerebelli",
+    "desc": "Estructura medial sagital del cerebelo que modula la postura erecta, el tono muscular axial y los movimientos oculares sacádicos.",
+    "color": "#f59e0b",
+    "path": "/models/cerebellum/cerebellum_vermis.glb",
+    "vertices": 3813,
+    "faces": 7634
+  },
+  {
+    "id": "cerebellum_lobules_anterior",
+    "filename": "cerebellum_lobules_anterior.glb",
+    "name": "Lobulillos Anteriores (I - V)",
+    "latinName": "Lobus anterior cerebelli",
+    "desc": "Lóbulo anterior cerebeloso conectado con la médula espinal (espinocerebelo) para la ejecución motora y propiocepción inconsciente.",
+    "color": "#34d399",
+    "path": "/models/cerebellum/cerebellum_lobules_anterior.glb",
+    "vertices": 8727,
+    "faces": 17478
+  },
+  {
+    "id": "cerebellum_crus_lobules",
+    "filename": "cerebellum_crus_lobules.glb",
+    "name": "Lobulillos Crus I y Crus II",
+    "latinName": "Lobuli ansiformes (Crus I & II)",
+    "desc": "Estructuras corticales posteriores de Buckner fuertemente acopladas con las redes frontoparietales y corteza prefrontal para cognición superior.",
+    "color": "#a78bfa",
+    "path": "/models/cerebellum/cerebellum_crus_lobules.glb",
+    "vertices": 21374,
+    "faces": 42840
+  },
+  {
+    "id": "cerebellum_lobules_posterior_inf",
+    "filename": "cerebellum_lobules_posterior_inf.glb",
+    "name": "Lobulillos Posteriores Inferiores (VIIb - IX)",
+    "latinName": "Lobus posterior inferior",
+    "desc": "Lobulillos cerebelosos inferiores que integran la coordinación oculomotora, memoria procedimental y ajuste fino de extremidades.",
+    "color": "#fb7185",
+    "path": "/models/cerebellum/cerebellum_lobules_posterior_inf.glb",
+    "vertices": 16440,
+    "faces": 32892
+  },
+  {
+    "id": "cerebellum_flocculonodular",
+    "filename": "cerebellum_flocculonodular.glb",
+    "name": "Lóbulo Floculonodular (Lobulillo X)",
+    "latinName": "Lobus flocculonodularis",
+    "desc": "La porción filogenéticamente más antigua (arquicerebelo / vestibulocerebelo), reguladora del equilibrio corporal y reflejo vestibuloocular (VOR).",
+    "color": "#06b6d4",
+    "path": "/models/cerebellum/cerebellum_flocculonodular.glb",
+    "vertices": 2188,
+    "faces": 4376
+  },
+  {
+    "id": "cerebellum_deep_nuclei",
+    "filename": "cerebellum_deep_nuclei.glb",
+    "name": "Núcleos Cerebelosos Profundos",
+    "latinName": "Nuclei cerebelli (Dentatus, Interpositus, Fastigii)",
+    "desc": "Estaciones de eferencia nuclear primaria del cerebelo hacia el tálamo y tronco encefálico (Núcleo Dentado, Emboliforme, Globoso y Fastigio).",
+    "color": "#facc15",
+    "path": "/models/cerebellum/cerebellum_deep_nuclei.glb",
+    "vertices": 3596,
+    "faces": 7200
+  },
+  {
+    "id": "brainstem_peduncles",
+    "filename": "brainstem_peduncles.glb",
+    "name": "Pedúnculos Cerebelosos y Conexión de Tronco",
+    "latinName": "Pedunculi cerebellares (Superior, Medius, Inferior)",
+    "desc": "Haces de fibras masivas que interconectan el cerebelo con el puente de Varolio, mesencéfalo y bulbo raquídeo.",
+    "color": "#f43f5e",
+    "path": "/models/cerebellum/brainstem_peduncles.glb",
+    "vertices": 5944,
+    "faces": 11884
+  }
+]

@@ -1,0 +1,739 @@
+{
+  "Cortex_Precentral_L": {
+    "id": "Cortex_Precentral_L",
+    "name": "Giro Precentral (Corteza Motora Primaria - M1) (Hemisferio Izquierdo)",
+    "category": "Corteza Motora",
+    "color": "#f28b82",
+    "hemisphere": "left",
+    "dissectable": true,
+    "vertexCount": 571,
+    "faceCount": 961
+  },
+  "Cortex_Postcentral_L": {
+    "id": "Cortex_Postcentral_L",
+    "name": "Giro Postcentral (Corteza Somatosensorial - S1) (Hemisferio Izquierdo)",
+    "category": "Corteza Somatosensorial",
+    "color": "#8ab4f8",
+    "hemisphere": "left",
+    "dissectable": true,
+    "vertexCount": 1055,
+    "faceCount": 1869
+  },
+  "Cortex_Frontal_Sup_L": {
+    "id": "Cortex_Frontal_Sup_L",
+    "name": "Giro Frontal Superior (Área Motora Suplementaria) (Hemisferio Izquierdo)",
+    "category": "Lóbulo Frontal",
+    "color": "#e9d5ff",
+    "hemisphere": "left",
+    "dissectable": true,
+    "vertexCount": 965,
+    "faceCount": 1708
+  },
+  "Cortex_Frontal_Mid_L": {
+    "id": "Cortex_Frontal_Mid_L",
+    "name": "Giro Frontal Medio (Corteza Prefrontal DLPFC) (Hemisferio Izquierdo)",
+    "category": "Lóbulo Frontal",
+    "color": "#fed7aa",
+    "hemisphere": "left",
+    "dissectable": true,
+    "vertexCount": 573,
+    "faceCount": 996
+  },
+  "Cortex_Broca_L": {
+    "id": "Cortex_Broca_L",
+    "name": "Área de Broca (Giro Frontal Inferior - Pars Opercularis/Triangularis) (Hemisferio Izquierdo)",
+    "category": "Lóbulo Frontal / Lenguaje",
+    "color": "#81c995",
+    "hemisphere": "left",
+    "dissectable": true,
+    "vertexCount": 286,
+    "faceCount": 435
+  },
+  "Cortex_Orbitofrontal_L": {
+    "id": "Cortex_Orbitofrontal_L",
+    "name": "Corteza Orbitofrontal (Toma de Decisiones y Emoción) (Hemisferio Izquierdo)",
+    "category": "Lóbulo Frontal",
+    "color": "#fef08a",
+    "hemisphere": "left",
+    "dissectable": true,
+    "vertexCount": 404,
+    "faceCount": 655
+  },
+  "Cortex_Frontopolar_L": {
+    "id": "Cortex_Frontopolar_L",
+    "name": "Polo Frontal (Corteza Frontopolar Anterior BA 10) (Hemisferio Izquierdo)",
+    "category": "Lóbulo Frontal",
+    "color": "#fbcfe8",
+    "hemisphere": "left",
+    "dissectable": true,
+    "vertexCount": 123,
+    "faceCount": 193
+  },
+  "Cortex_Parietal_Sup_L": {
+    "id": "Cortex_Parietal_Sup_L",
+    "name": "Lóbulo Parietal Superior y Precúneo (BA 5/7) (Hemisferio Izquierdo)",
+    "category": "Lóbulo Parietal",
+    "color": "#c084fc",
+    "hemisphere": "left",
+    "dissectable": true,
+    "vertexCount": 956,
+    "faceCount": 1681
+  },
+  "Cortex_Supramarginal_L": {
+    "id": "Cortex_Supramarginal_L",
+    "name": "Giro Supramarginal (Procesamiento Fonológico BA 40) (Hemisferio Izquierdo)",
+    "category": "Lóbulo Parietal",
+    "color": "#fcad70",
+    "hemisphere": "left",
+    "dissectable": true,
+    "vertexCount": 395,
+    "faceCount": 646
+  },
+  "Cortex_Angular_L": {
+    "id": "Cortex_Angular_L",
+    "name": "Giro Angular (Integración Semántica y Lectura BA 39) (Hemisferio Izquierdo)",
+    "category": "Lóbulo Parietal",
+    "color": "#d7aefb",
+    "hemisphere": "left",
+    "dissectable": true,
+    "vertexCount": 226,
+    "faceCount": 340
+  },
+  "Cortex_Temporal_Sup_L": {
+    "id": "Cortex_Temporal_Sup_L",
+    "name": "Giro Temporal Superior (Área de Wernicke y Heschl) (Hemisferio Izquierdo)",
+    "category": "Lóbulo Temporal / Auditivo",
+    "color": "#78d9ec",
+    "hemisphere": "left",
+    "dissectable": true,
+    "vertexCount": 930,
+    "faceCount": 1605
+  },
+  "Cortex_Temporal_Mid_L": {
+    "id": "Cortex_Temporal_Mid_L",
+    "name": "Giro Temporal Medio (Memoria Semántica BA 21) (Hemisferio Izquierdo)",
+    "category": "Lóbulo Temporal",
+    "color": "#fde047",
+    "hemisphere": "left",
+    "dissectable": true,
+    "vertexCount": 322,
+    "faceCount": 497
+  },
+  "Cortex_Temporal_Inf_L": {
+    "id": "Cortex_Temporal_Inf_L",
+    "name": "Giro Temporal Inferior (Vía Visual Ventral BA 20) (Hemisferio Izquierdo)",
+    "category": "Lóbulo Temporal",
+    "color": "#f59e0b",
+    "hemisphere": "left",
+    "dissectable": true,
+    "vertexCount": 218,
+    "faceCount": 326
+  },
+  "Cortex_Temporal_Pole_L": {
+    "id": "Cortex_Temporal_Pole_L",
+    "name": "Polo Temporal (Procesamiento Socioemocional BA 38) (Hemisferio Izquierdo)",
+    "category": "Lóbulo Temporal",
+    "color": "#f472b6",
+    "hemisphere": "left",
+    "dissectable": true,
+    "vertexCount": 139,
+    "faceCount": 210
+  },
+  "Cortex_Occipital_L": {
+    "id": "Cortex_Occipital_L",
+    "name": "Corteza Visual Occipital (Corteza Calcarina V1, V2 y V3) (Hemisferio Izquierdo)",
+    "category": "Lóbulo Occipital",
+    "color": "#ff8bcb",
+    "hemisphere": "left",
+    "dissectable": true,
+    "vertexCount": 1019,
+    "faceCount": 1817
+  },
+  "Cortex_Fusiform_L": {
+    "id": "Cortex_Fusiform_L",
+    "name": "Giro Fusiforme (Reconocimiento Facial BA 37) (Hemisferio Izquierdo)",
+    "category": "Corteza Occipitotemporal",
+    "color": "#93c5fd",
+    "hemisphere": "left",
+    "dissectable": true,
+    "vertexCount": 584,
+    "faceCount": 994
+  },
+  "Cortex_Cingulate_L": {
+    "id": "Cortex_Cingulate_L",
+    "name": "Corteza Cingulada Anterior y Posterior (Hemisferio Izquierdo)",
+    "category": "Sistema Límbico",
+    "color": "#fda4af",
+    "hemisphere": "left",
+    "dissectable": true,
+    "vertexCount": 939,
+    "faceCount": 1592
+  },
+  "Cortex_Insula_L": {
+    "id": "Cortex_Insula_L",
+    "name": "Corteza Insular (Interocepción y Dolor) (Hemisferio Izquierdo)",
+    "category": "Ínsula de Reil",
+    "color": "#5eead4",
+    "hemisphere": "left",
+    "dissectable": true,
+    "vertexCount": 575,
+    "faceCount": 1003
+  },
+  "Cortex_Medial_L": {
+    "id": "Cortex_Medial_L",
+    "name": "Corteza Medial y Giro Parahipocámpico (Hemisferio Izquierdo)",
+    "category": "Cara Medial",
+    "color": "#fdba74",
+    "hemisphere": "left",
+    "dissectable": true,
+    "vertexCount": 1761,
+    "faceCount": 2952
+  },
+  "Cortex_Precentral_R": {
+    "id": "Cortex_Precentral_R",
+    "name": "Giro Precentral (Corteza Motora Primaria - M1) (Hemisferio Derecho)",
+    "category": "Corteza Motora",
+    "color": "#f28b82",
+    "hemisphere": "right",
+    "dissectable": true,
+    "vertexCount": 568,
+    "faceCount": 955
+  },
+  "Cortex_Postcentral_R": {
+    "id": "Cortex_Postcentral_R",
+    "name": "Giro Postcentral (Corteza Somatosensorial - S1) (Hemisferio Derecho)",
+    "category": "Corteza Somatosensorial",
+    "color": "#8ab4f8",
+    "hemisphere": "right",
+    "dissectable": true,
+    "vertexCount": 985,
+    "faceCount": 1733
+  },
+  "Cortex_Frontal_Sup_R": {
+    "id": "Cortex_Frontal_Sup_R",
+    "name": "Giro Frontal Superior (Área Motora Suplementaria) (Hemisferio Derecho)",
+    "category": "Lóbulo Frontal",
+    "color": "#e9d5ff",
+    "hemisphere": "right",
+    "dissectable": true,
+    "vertexCount": 944,
+    "faceCount": 1638
+  },
+  "Cortex_Frontal_Mid_R": {
+    "id": "Cortex_Frontal_Mid_R",
+    "name": "Giro Frontal Medio (Corteza Prefrontal DLPFC) (Hemisferio Derecho)",
+    "category": "Lóbulo Frontal",
+    "color": "#fed7aa",
+    "hemisphere": "right",
+    "dissectable": true,
+    "vertexCount": 614,
+    "faceCount": 1062
+  },
+  "Cortex_Broca_R": {
+    "id": "Cortex_Broca_R",
+    "name": "Área de Broca (Giro Frontal Inferior - Pars Opercularis/Triangularis) (Hemisferio Derecho)",
+    "category": "Lóbulo Frontal / Lenguaje",
+    "color": "#81c995",
+    "hemisphere": "right",
+    "dissectable": true,
+    "vertexCount": 241,
+    "faceCount": 361
+  },
+  "Cortex_Orbitofrontal_R": {
+    "id": "Cortex_Orbitofrontal_R",
+    "name": "Corteza Orbitofrontal (Toma de Decisiones y Emoción) (Hemisferio Derecho)",
+    "category": "Lóbulo Frontal",
+    "color": "#fef08a",
+    "hemisphere": "right",
+    "dissectable": true,
+    "vertexCount": 426,
+    "faceCount": 686
+  },
+  "Cortex_Frontopolar_R": {
+    "id": "Cortex_Frontopolar_R",
+    "name": "Polo Frontal (Corteza Frontopolar Anterior BA 10) (Hemisferio Derecho)",
+    "category": "Lóbulo Frontal",
+    "color": "#fbcfe8",
+    "hemisphere": "right",
+    "dissectable": true,
+    "vertexCount": 134,
+    "faceCount": 201
+  },
+  "Cortex_Parietal_Sup_R": {
+    "id": "Cortex_Parietal_Sup_R",
+    "name": "Lóbulo Parietal Superior y Precúneo (BA 5/7) (Hemisferio Derecho)",
+    "category": "Lóbulo Parietal",
+    "color": "#c084fc",
+    "hemisphere": "right",
+    "dissectable": true,
+    "vertexCount": 985,
+    "faceCount": 1734
+  },
+  "Cortex_Supramarginal_R": {
+    "id": "Cortex_Supramarginal_R",
+    "name": "Giro Supramarginal (Procesamiento Fonológico BA 40) (Hemisferio Derecho)",
+    "category": "Lóbulo Parietal",
+    "color": "#fcad70",
+    "hemisphere": "right",
+    "dissectable": true,
+    "vertexCount": 373,
+    "faceCount": 574
+  },
+  "Cortex_Angular_R": {
+    "id": "Cortex_Angular_R",
+    "name": "Giro Angular (Integración Semántica y Lectura BA 39) (Hemisferio Derecho)",
+    "category": "Lóbulo Parietal",
+    "color": "#d7aefb",
+    "hemisphere": "right",
+    "dissectable": true,
+    "vertexCount": 320,
+    "faceCount": 481
+  },
+  "Cortex_Temporal_Sup_R": {
+    "id": "Cortex_Temporal_Sup_R",
+    "name": "Giro Temporal Superior (Área de Wernicke y Heschl) (Hemisferio Derecho)",
+    "category": "Lóbulo Temporal / Auditivo",
+    "color": "#78d9ec",
+    "hemisphere": "right",
+    "dissectable": true,
+    "vertexCount": 960,
+    "faceCount": 1636
+  },
+  "Cortex_Temporal_Mid_R": {
+    "id": "Cortex_Temporal_Mid_R",
+    "name": "Giro Temporal Medio (Memoria Semántica BA 21) (Hemisferio Derecho)",
+    "category": "Lóbulo Temporal",
+    "color": "#fde047",
+    "hemisphere": "right",
+    "dissectable": true,
+    "vertexCount": 322,
+    "faceCount": 528
+  },
+  "Cortex_Temporal_Inf_R": {
+    "id": "Cortex_Temporal_Inf_R",
+    "name": "Giro Temporal Inferior (Vía Visual Ventral BA 20) (Hemisferio Derecho)",
+    "category": "Lóbulo Temporal",
+    "color": "#f59e0b",
+    "hemisphere": "right",
+    "dissectable": true,
+    "vertexCount": 193,
+    "faceCount": 284
+  },
+  "Cortex_Temporal_Pole_R": {
+    "id": "Cortex_Temporal_Pole_R",
+    "name": "Polo Temporal (Procesamiento Socioemocional BA 38) (Hemisferio Derecho)",
+    "category": "Lóbulo Temporal",
+    "color": "#f472b6",
+    "hemisphere": "right",
+    "dissectable": true,
+    "vertexCount": 151,
+    "faceCount": 232
+  },
+  "Cortex_Occipital_R": {
+    "id": "Cortex_Occipital_R",
+    "name": "Corteza Visual Occipital (Corteza Calcarina V1, V2 y V3) (Hemisferio Derecho)",
+    "category": "Lóbulo Occipital",
+    "color": "#ff8bcb",
+    "hemisphere": "right",
+    "dissectable": true,
+    "vertexCount": 1053,
+    "faceCount": 1885
+  },
+  "Cortex_Fusiform_R": {
+    "id": "Cortex_Fusiform_R",
+    "name": "Giro Fusiforme (Reconocimiento Facial BA 37) (Hemisferio Derecho)",
+    "category": "Corteza Occipitotemporal",
+    "color": "#93c5fd",
+    "hemisphere": "right",
+    "dissectable": true,
+    "vertexCount": 518,
+    "faceCount": 885
+  },
+  "Cortex_Cingulate_R": {
+    "id": "Cortex_Cingulate_R",
+    "name": "Corteza Cingulada Anterior y Posterior (Hemisferio Derecho)",
+    "category": "Sistema Límbico",
+    "color": "#fda4af",
+    "hemisphere": "right",
+    "dissectable": true,
+    "vertexCount": 1014,
+    "faceCount": 1727
+  },
+  "Cortex_Insula_R": {
+    "id": "Cortex_Insula_R",
+    "name": "Corteza Insular (Interocepción y Dolor) (Hemisferio Derecho)",
+    "category": "Ínsula de Reil",
+    "color": "#5eead4",
+    "hemisphere": "right",
+    "dissectable": true,
+    "vertexCount": 503,
+    "faceCount": 863
+  },
+  "Cortex_Medial_R": {
+    "id": "Cortex_Medial_R",
+    "name": "Corteza Medial y Giro Parahipocámpico (Hemisferio Derecho)",
+    "category": "Cara Medial",
+    "color": "#fdba74",
+    "hemisphere": "right",
+    "dissectable": true,
+    "vertexCount": 1786,
+    "faceCount": 3015
+  },
+  "Corpus_Callosum": {
+    "id": "Corpus_Callosum",
+    "name": "Cuerpo Calloso (Comisura Interhemisférica)",
+    "category": "Comisura",
+    "color": "#6fa8dc",
+    "dissectable": true
+  },
+  "Fornix": {
+    "id": "Fornix",
+    "name": "Fórnix (Trígono Cerebral)",
+    "category": "Sistema Límbico",
+    "color": "#f6b26b",
+    "dissectable": true
+  },
+  "Thalamus_L": {
+    "id": "Thalamus_L",
+    "name": "Tálamo Izquierdo",
+    "category": "Diencéfalo",
+    "color": "#e06666",
+    "dissectable": true
+  },
+  "Thalamus_R": {
+    "id": "Thalamus_R",
+    "name": "Tálamo Derecho",
+    "category": "Diencéfalo",
+    "color": "#e06666",
+    "dissectable": true
+  },
+  "Caudate_L": {
+    "id": "Caudate_L",
+    "name": "Núcleo Caudado Izquierdo",
+    "category": "Ganglios Basales",
+    "color": "#9999e6",
+    "dissectable": true
+  },
+  "Caudate_R": {
+    "id": "Caudate_R",
+    "name": "Núcleo Caudado Derecho",
+    "category": "Ganglios Basales",
+    "color": "#9999e6",
+    "dissectable": true
+  },
+  "Putamen_L": {
+    "id": "Putamen_L",
+    "name": "Putamen Izquierdo",
+    "category": "Ganglios Basales",
+    "color": "#8e7cc3",
+    "dissectable": true
+  },
+  "Putamen_R": {
+    "id": "Putamen_R",
+    "name": "Putamen Derecho",
+    "category": "Ganglios Basales",
+    "color": "#8e7cc3",
+    "dissectable": true
+  },
+  "Pallidum_L": {
+    "id": "Pallidum_L",
+    "name": "Globo Pálido Izquierdo",
+    "category": "Ganglios Basales",
+    "color": "#d5a6bd",
+    "dissectable": true
+  },
+  "Pallidum_R": {
+    "id": "Pallidum_R",
+    "name": "Globo Pálido Derecho",
+    "category": "Ganglios Basales",
+    "color": "#d5a6bd",
+    "dissectable": true
+  },
+  "Hippocampus_L": {
+    "id": "Hippocampus_L",
+    "name": "Hipocampo Izquierdo",
+    "category": "Sistema Límbico",
+    "color": "#ffd966",
+    "dissectable": true
+  },
+  "Hippocampus_R": {
+    "id": "Hippocampus_R",
+    "name": "Hipocampo Derecho",
+    "category": "Sistema Límbico",
+    "color": "#ffd966",
+    "dissectable": true
+  },
+  "Amygdala_L": {
+    "id": "Amygdala_L",
+    "name": "Amígdala Izquierda",
+    "category": "Sistema Límbico",
+    "color": "#f9cb9c",
+    "dissectable": true
+  },
+  "Amygdala_R": {
+    "id": "Amygdala_R",
+    "name": "Amígdala Derecha",
+    "category": "Sistema Límbico",
+    "color": "#f9cb9c",
+    "dissectable": true
+  },
+  "Midbrain": {
+    "id": "Midbrain",
+    "name": "Mesencéfalo (Pedúnculos y Colículos)",
+    "category": "Tronco Encefálico",
+    "color": "#d5a6bd",
+    "dissectable": true
+  },
+  "Pons": {
+    "id": "Pons",
+    "name": "Puente de Varolio (Protuberancia)",
+    "category": "Tronco Encefálico",
+    "color": "#ea9999",
+    "dissectable": true
+  },
+  "Medulla": {
+    "id": "Medulla",
+    "name": "Bulbo Raquídeo (Médula Oblongada)",
+    "category": "Tronco Encefálico",
+    "color": "#c5a5cf",
+    "dissectable": true
+  },
+  "Cerebellum_L": {
+    "id": "Cerebellum_L",
+    "name": "Hemisferio Cerebeloso Izquierdo",
+    "category": "Cerebelo",
+    "color": "#45818e",
+    "dissectable": true
+  },
+  "Cerebellum_R": {
+    "id": "Cerebellum_R",
+    "name": "Hemisferio Cerebeloso Derecho",
+    "category": "Cerebelo",
+    "color": "#45818e",
+    "dissectable": true
+  },
+  "Vermis": {
+    "id": "Vermis",
+    "name": "Vermis Cerebeloso",
+    "category": "Cerebelo",
+    "color": "#5ea48a",
+    "dissectable": true
+  },
+  "Ventricles_L": {
+    "id": "Ventricles_L",
+    "name": "Ventrículo Lateral Izquierdo",
+    "category": "Sistema Ventricular",
+    "color": "#a4c2f4",
+    "dissectable": true
+  },
+  "Ventricles_R": {
+    "id": "Ventricles_R",
+    "name": "Ventrículo Lateral Derecho",
+    "category": "Sistema Ventricular",
+    "color": "#a4c2f4",
+    "dissectable": true
+  },
+  "TRACT_ARCUATE": {
+    "id": "TRACT_ARCUATE",
+    "name": "Fascículo Arqueado (Vía Dorsal del Lenguaje)",
+    "category": "Sustancia Blanca",
+    "color": "#00e5ff",
+    "dissectable": true
+  },
+  "TRACT_CST": {
+    "id": "TRACT_CST",
+    "name": "Tracto Corticoespinal (Vía Motora Piramidal)",
+    "category": "Sustancia Blanca",
+    "color": "#f28b82",
+    "dissectable": true
+  },
+  "TRACT_OPTIC": {
+    "id": "TRACT_OPTIC",
+    "name": "Radiación Óptica (Vía Visual Geniculocalcarina)",
+    "category": "Sustancia Blanca",
+    "color": "#ff8bcb",
+    "dissectable": true
+  },
+  "TRACT_THALAMOCORTICAL": {
+    "id": "TRACT_THALAMOCORTICAL",
+    "name": "Radiación Talámica Somatosensorial",
+    "category": "Sustancia Blanca",
+    "color": "#8ab4f8",
+    "dissectable": true
+  },
+  "TRACT_UNCINATE": {
+    "id": "TRACT_UNCINATE",
+    "name": "Fascículo Uncinado (Límbico-Frontal)",
+    "category": "Sustancia Blanca",
+    "color": "#ffd966",
+    "dissectable": true
+  },
+  "TRACT_SLF": {
+    "id": "TRACT_SLF",
+    "name": "Fascículo Longitudinal Superior (SLF)",
+    "category": "Sustancia Blanca",
+    "color": "#5eead4",
+    "dissectable": true
+  },
+  "TRACT_ILF": {
+    "id": "TRACT_ILF",
+    "name": "Fascículo Longitudinal Inferior (ILF)",
+    "category": "Sustancia Blanca",
+    "color": "#fde047",
+    "dissectable": true
+  },
+  "TRACT_CINGULUM": {
+    "id": "TRACT_CINGULUM",
+    "name": "Cíngulo (Circuito de Papez)",
+    "category": "Sustancia Blanca",
+    "color": "#fda4af",
+    "dissectable": true
+  },
+  "TRACT_CORPUS_CALLOSUM": {
+    "id": "TRACT_CORPUS_CALLOSUM",
+    "name": "Comisura del Cuerpo Calloso",
+    "category": "Sustancia Blanca",
+    "color": "#6fa8dc",
+    "dissectable": true
+  },
+  "ART_ICA": {
+    "id": "ART_ICA",
+    "name": "Arteria Carótida Interna (ACI)",
+    "category": "Sistema Arterial",
+    "color": "#ef4444",
+    "dissectable": true
+  },
+  "ART_MCA": {
+    "id": "ART_MCA",
+    "name": "Arteria Cerebral Media (ACM M1/M2)",
+    "category": "Sistema Arterial",
+    "color": "#f97316",
+    "dissectable": true
+  },
+  "ART_ACA": {
+    "id": "ART_ACA",
+    "name": "Arteria Cerebral Anterior (ACA A1/A2)",
+    "category": "Sistema Arterial",
+    "color": "#eab308",
+    "dissectable": true
+  },
+  "ART_PCA": {
+    "id": "ART_PCA",
+    "name": "Arteria Cerebral Posterior (ACP P1/P2)",
+    "category": "Sistema Arterial",
+    "color": "#ec4899",
+    "dissectable": true
+  },
+  "ART_BA": {
+    "id": "ART_BA",
+    "name": "Arteria Basilar (Tronco Basilar)",
+    "category": "Sistema Arterial",
+    "color": "#dc2626",
+    "dissectable": true
+  },
+  "ART_VA": {
+    "id": "ART_VA",
+    "name": "Arterias Vertebrales (V4)",
+    "category": "Sistema Arterial",
+    "color": "#b91c1c",
+    "dissectable": true
+  },
+  "ART_ACOM": {
+    "id": "ART_ACOM",
+    "name": "Arteria Comunicante Anterior (AComA)",
+    "category": "Sistema Arterial",
+    "color": "#f59e0b",
+    "dissectable": true
+  },
+  "ART_PCOM": {
+    "id": "ART_PCOM",
+    "name": "Arteria Comunicante Posterior (AComP)",
+    "category": "Sistema Arterial",
+    "color": "#f43f5e",
+    "dissectable": true
+  },
+  "cn1": {
+    "id": "cn1",
+    "name": "I Par Craneal - Nervio Olfatorio",
+    "category": "Pares Craneales",
+    "color": "#38bdf8",
+    "dissectable": true
+  },
+  "cn2": {
+    "id": "cn2",
+    "name": "II Par Craneal - Nervio Óptico",
+    "category": "Pares Craneales",
+    "color": "#38bdf8",
+    "dissectable": true
+  },
+  "cn3": {
+    "id": "cn3",
+    "name": "III Par Craneal - Nervio Oculomotor",
+    "category": "Pares Craneales",
+    "color": "#38bdf8",
+    "dissectable": true
+  },
+  "cn4": {
+    "id": "cn4",
+    "name": "IV Par Craneal - Nervio Troclear (Patético)",
+    "category": "Pares Craneales",
+    "color": "#38bdf8",
+    "dissectable": true
+  },
+  "cn5": {
+    "id": "cn5",
+    "name": "V Par Craneal - Nervio Trigémino",
+    "category": "Pares Craneales",
+    "color": "#38bdf8",
+    "dissectable": true
+  },
+  "cn6": {
+    "id": "cn6",
+    "name": "VI Par Craneal - Nervio Abducens (Motor Ocular Externo)",
+    "category": "Pares Craneales",
+    "color": "#38bdf8",
+    "dissectable": true
+  },
+  "cn7": {
+    "id": "cn7",
+    "name": "VII Par Craneal - Nervio Facial",
+    "category": "Pares Craneales",
+    "color": "#38bdf8",
+    "dissectable": true
+  },
+  "cn8": {
+    "id": "cn8",
+    "name": "VIII Par Craneal - Nervio Vestibulococlear (Auditivo)",
+    "category": "Pares Craneales",
+    "color": "#38bdf8",
+    "dissectable": true
+  },
+  "cn9": {
+    "id": "cn9",
+    "name": "IX Par Craneal - Nervio Glosofaríngeo",
+    "category": "Pares Craneales",
+    "color": "#38bdf8",
+    "dissectable": true
+  },
+  "cn10": {
+    "id": "cn10",
+    "name": "X Par Craneal - Nervio Vago (Neumogástrico)",
+    "category": "Pares Craneales",
+    "color": "#38bdf8",
+    "dissectable": true
+  },
+  "cn11": {
+    "id": "cn11",
+    "name": "XI Par Craneal - Nervio Accesorio (Espinal)",
+    "category": "Pares Craneales",
+    "color": "#38bdf8",
+    "dissectable": true
+  },
+  "cn12": {
+    "id": "cn12",
+    "name": "XII Par Craneal - Nervio Hipogloso",
+    "category": "Pares Craneales",
+    "color": "#38bdf8",
+    "dissectable": true
+  }
+}
